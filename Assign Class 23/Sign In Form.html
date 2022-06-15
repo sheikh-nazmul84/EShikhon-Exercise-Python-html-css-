@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Form</title>
+        <style>
+            div{
+                background-color: rgba(13, 226, 241, 0.7);
+                width: 400px;
+                height: 450px;
+                margin-left: 450px;
+                margin-top: 100;
+                border-radius: 6px;
+            }
+            h1{
+                text-align: center;
+                color: rgb(29, 18, 18);
+                font-size: 30px;
+            }
+            label{
+                color: #0c0101;
+                font-size: 15px;
+                margin-left: 100px;
+            }
+            img{
+                margin-left: 90px;
+                width: 20px;
+                height: 20px;
+            }
+            input[type=text],input[type=password]{
+                width: 180px;
+                height: 20px;
+                border-radius: 6px;
+                border: 2px solid black;
+                font-size: 15px;
+                background-color: white;
+            }
+            input[type=submit]{
+                width: 100px;
+                height: 30px;
+                background-color: rgb(17, 174, 235);
+                color: white;
+                font-size: 20px;
+                border-radius: 6px;
+                margin-left: 150px;
+            }
+            input[type=submit]:hover{
+                background-color:blue;
+                color: white;
+                cursor: pointer;
+            }
+            ol{
+                list-style-type: none;
+                margin-left: 110px;
+                margin-top: 30px;
+            }
+            a{
+                color: blue;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            a:hover{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <br><br>
+            <h1>Sign In Form</h1>
+            <form>
+                <label>Username</label><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/709/709722.png">
+                <input type="text" placeholder="Enter Username..."> <br><br>
+
+                <label>Password</label><br>
+                <img src="https://cdn-icons-png.flaticon.com/128/811/811743.png">
+                <input type="password" placeholder="Enter password..."> <br>
+            <ol>
+                <li><a href="#">Forget Password?</a></li>
+            </ol>
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
+    </body>
+</html>
